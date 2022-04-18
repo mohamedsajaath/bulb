@@ -1,0 +1,70 @@
+.body{
+    background-color: black;
+    
+}
+.bulb-image{
+    position: absolute;
+    left:5.5%;
+    height: auto;
+    width: 450px;
+    margin:0px 0px 0px ;
+}
+.light{
+   visibility: hidden;
+    position: absolute;
+    top:198px;
+    left:39.4%;
+    height:105px;
+    width:105px;
+    background-image: radial-gradient(#eeebdc,#e7e5dd,#ebe9e1,#ddd9ccae);
+    border-radius: 70px;
+    opacity: 1;
+    box-shadow: 10px 10px 100px white;
+    z-index: 1;
+}
+.button-on{
+    position:absolute;
+    top:700px;
+    left:200px;
+  
+}
+.on-button{
+    color:white;
+    background-color: rgb(3, 3, 3);
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 50px;
+    /* box-shadow: 0px 0px 20px white; */
+
+}
+.off-div{
+    position: absolute;
+    top:0px;
+    /* background-color: white; */
+    height:70%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+    .light{
+        position: absolute;
+        top:200px;
+        left:45.9%;
+    }
+    .bulb-image{
+        position: absolute;
+        left:32.5%;
+    }
+    .button-on{
+        position:absolute;
+        top:700px;
+        left:590px;
+       
+       
+    }
+    
+      
+}
