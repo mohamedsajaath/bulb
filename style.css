@@ -13,7 +13,7 @@
    visibility: hidden;
     position: absolute;
     top:198px;
-    left:39.4%;
+    left:39.5%;
     height:105px;
     width:105px;
     background-image: radial-gradient(#eeebdc,#e7e5dd,#ebe9e1,#ddd9ccae);
@@ -35,20 +35,21 @@
     width:100px;
     border-radius: 50%;
     text-align: center;
-    padding-top: 12px;
+ 
     font-size: 50px;
-    /* box-shadow: 0px 0px 20px white; */
-
+  
+    border:none;
 }
+
+
 .off-div{
     position: absolute;
     top:0px;
-    /* background-color: white; */
     height:70%;
     width: 100%;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1280px) {
     .light{
         position: absolute;
         top:200px;
