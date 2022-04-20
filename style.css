@@ -1,55 +1,137 @@
-.body{
+.body {
     background-color: black;
-    
-}
-.bulb-image{
-    position: absolute;
-    left:5.5%;
-    height: auto;
-    width: 450px;
-    margin:0px 0px 0px ;
-}
-.light{
-   visibility: hidden;
-    position: absolute;
-    top:198px;
-    left:39.5%;
-    height:105px;
-    width:105px;
-    background-image: radial-gradient(#eeebdc,#e7e5dd,#ebe9e1,#ddd9ccae);
-    border-radius: 70px;
-    opacity: 1;
-    box-shadow: 10px 10px 100px white;
-    z-index: 1;
-}
-.button-on{
-    position:absolute;
-    top:700px;
-    left:200px;
-  
-}
-.on-button{
-    color:white;
-    background-color: rgb(3, 3, 3);
-    height:100px;
-    width:100px;
-    border-radius: 50%;
-    text-align: center;
- 
-    font-size: 50px;
-  
-    border:none;
+    width: 100%;
+    height: 100vh;
 }
 
 
-.off-div{
-    position: absolute;
-    top:0px;
-    height:70%;
+/* image row */
+
+.image {
     width: 100%;
 }
 
+.image-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bulb-image {
+    height: auto;
+    width: 450px;
+
+    margin-left: 10px;
+
+}
+
+
+
+/* button row */
+
+.footer {
+    position: relative;
+    top: 150px;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.button-div {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.on-button {
+    color: white;
+    background-color: rgb(3, 3, 3);
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    font-size: 50px;
+    border: none;
+    flex: 1;
+
+}
+
+.on-button:focus {
+    outline: none;
+
+}
+
+
+
+
+
+
+/* light row */
+
+
+
+.light-row {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+}
+
+.light-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.light {
+    /* visibility: hidden; */
+    top: 200px;
+    left: 190px;
+    height: 105px;
+    width: 105px;
+    background-image: radial-gradient(#eeebdc, #e7e5dd, #ebe9e1, #ddd9ccae);
+    border-radius: 70px;
+    opacity: 1;
+    box-shadow: 0px 0px 90px white;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media screen and (max-width: 320px) {
+
+}
+@media screen and (max-width: 480px) {
+
+}
+@media screen and (max-width: 600px) {
+ 
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 900px) {
+
+}
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+
 @media only screen and (min-width: 1280px) {
+    body{
+        height:100vh;
+    }
     .light{
         position: absolute;
         top:200px;
@@ -68,4 +150,4 @@
     }
     
       
-}
+} */
