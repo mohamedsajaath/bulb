@@ -10,19 +10,21 @@ let body = document.querySelector('.off-button');
 
 
 let light = document.querySelector('.light');
-
+let swipe = document.querySelector('.swipe');
 
 
 let lightValue = light.getAttribute('data-light');
 // lightValue = 1;
-if(lightValue == 0){
-    light.style.visibility="hidden";
-}
+
+light.style.visibility="hidden";
+swipe.style.visibility="hidden";
+
 
 onBtn.addEventListener('touchstart', () =>{
 
 
     light.style.visibility="visible";  
+    swipe.style.visibility="visible";  
 
   
 })
@@ -30,6 +32,7 @@ onBtn.addEventListener('touchmove', () =>{
 
 
        light.style.visibility="hidden";  
+       swipe.style.visibility="hidden"; 
 
    })
 console.log(lightValue)

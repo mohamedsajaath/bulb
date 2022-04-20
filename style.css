@@ -1,3 +1,5 @@
+
+
 .body {
     background-color: black;
     width: 100%;
@@ -83,7 +85,6 @@
 }
 
 .light {
-    /* visibility: hidden; */
     top: 200px;
     left: 190px;
     height: 105px;
@@ -97,8 +98,17 @@
 
 
 
-
-
+.swipe-container{
+height:100px;
+}
+.swipe-div{
+    display: flex;
+    justify-content: space-around;
+}
+.swipe{
+    margin-left:-35px;
+    height:300px;
+}
 
 
 
